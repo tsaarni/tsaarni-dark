@@ -1,0 +1,162 @@
+{
+	"name": "tsaarni-dark",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#202020",
+		"editor.lineHighlightBackground": "#141414",
+		"editor.selectionHighlightBackground": "#404040",
+		"editor.selectionBackground": "#808080",
+		"editor.foreground": "#eeffff",
+		"editor.findMatchHighlightBackground": "#ee000080",
+		"editor.findMatchBorder": "#becaca",
+
+		"list.activeSelectionBackground":"#101010",
+		"tab.activeBorder":"#5090ff",
+		"tab.activeBackground": "#444",
+
+		"statusBar.background": "#505050",
+		"statusBar.noFolderBackground": "#505050",
+
+		"sideBarTitle.foreground": "#bbbbbb",
+
+		"editorIndentGuide.activeBackground": "#606060",
+
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment",
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#e09040"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": [
+				"keyword",
+				"storage.type",
+				"storage.type.struct",
+				"storage.modifier",
+				///"entity.name",
+				"fenced_code.block.language.markdown",
+			],
+			"settings": {
+				"foreground": "#00ffff"
+			}
+		},
+		{
+			"name": "Constant",
+			"scope": [
+				"constant.language",
+			],
+			"settings": {
+				"foreground": "#98fb98",
+			}
+		},
+		{
+			"name": "Parameter",
+			"scope": [
+				"entity.name.type",
+				"variable.parameter.function.language.python"
+			],
+			"settings": {
+				"foreground": "#87cefa"
+		}
+		},
+		{
+			"name": "ResetStyle",
+			"scope": [
+				"entity.name.function.call",
+				"meta.preprocessor.macro",
+				"meta.function.definition.parameters",
+			],
+			"settings": {
+				"foreground": "#FFFFFF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "FunctionDefinition",
+			"scope": [
+				"entity.name.function.definition",
+				"entity.name.function.python",
+				"support.function.magic.python",
+				"entity.name.function.go",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#eec900"
+			}
+		},
+		{
+			"name": "FunctionCall",
+			"scope": [
+				"support.function.go",
+			],
+			"settings": {
+				"foreground": "#fff1a3"
+			}
+		},
+		{
+			"name": "String",
+			"scope": [
+				"string",
+				"markup.inline.raw.string.markdown",
+				"markup.raw.block.markdown",
+				"markup.fenced_code",
+			],
+			"settings": {
+				"foreground": "#f0c060"
+			}
+		},
+		{
+			"name": "Macro",
+			"scope": [
+				"entity.name.function.preprocessor",
+			],
+			"settings": {
+				"foreground": "#ffe4b5",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Unit",
+			"scope": [
+				"keyword.other.unit",
+			],
+			"settings": {
+				"foreground": "#e0e0FF",
+			}
+
+
+		},
+		{
+			"name": "Object",
+			"scope": [
+				"variable.other.object",
+				"entity.name.scope-resolution",
+				"entity.name.namespace",
+				"entity.name.type.class",
+				"variable.parameter.function.language.special.self.python",
+				"heading",
+			],
+			"settings": {
+				"foreground": "#a8fba8",
+			}
+		},
+		{
+			"name": "Exception",
+			"scope": [
+				"support.type.exception.python",
+				"keyword.control.throw.cpp"
+			],
+			"settings": {
+				"foreground": "#ff8080",
+			}
+		},
+	]
+}
