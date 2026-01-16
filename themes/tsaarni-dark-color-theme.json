@@ -19,7 +19,9 @@
 
 		"sideBarTitle.foreground": "#bbbbbb",
 
-		"editorIndentGuide.activeBackground": "#606060",
+		"editorIndentGuide.activeBackground1": "#606060",
+
+		"git.blame.editorDecorationForeground": "#404040"
 
 	},
 	"tokenColors": [
